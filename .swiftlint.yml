@@ -1,0 +1,6 @@
+included:
+  - SimplyGiphy
+  - SimplyGiphyTests
+  - SimplyGiphyUITests
+excluded:
+  - Pods
