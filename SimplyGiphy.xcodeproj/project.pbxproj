@@ -1,0 +1,530 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14026E741F1B0352006AFB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14026E731F1B0352006AFB36 /* AppDelegate.swift */; };
+		14026E761F1B0352006AFB36 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14026E751F1B0352006AFB36 /* ViewController.swift */; };
+		14026E791F1B0352006AFB36 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14026E771F1B0352006AFB36 /* Main.storyboard */; };
+		14026E7B1F1B0352006AFB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14026E7A1F1B0352006AFB36 /* Assets.xcassets */; };
+		14026E7E1F1B0352006AFB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14026E7C1F1B0352006AFB36 /* LaunchScreen.storyboard */; };
+		14026E891F1B0352006AFB36 /* SimplyGiphyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14026E881F1B0352006AFB36 /* SimplyGiphyTests.swift */; };
+		14026E941F1B0352006AFB36 /* SimplyGiphyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14026E931F1B0352006AFB36 /* SimplyGiphyUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		14026E851F1B0352006AFB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14026E681F1B0352006AFB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14026E6F1F1B0352006AFB36;
+			remoteInfo = SimplyGiphy;
+		};
+		14026E901F1B0352006AFB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 14026E681F1B0352006AFB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 14026E6F1F1B0352006AFB36;
+			remoteInfo = SimplyGiphy;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14026E701F1B0352006AFB36 /* SimplyGiphy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyGiphy.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		14026E731F1B0352006AFB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14026E751F1B0352006AFB36 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14026E781F1B0352006AFB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14026E7A1F1B0352006AFB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14026E7D1F1B0352006AFB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14026E7F1F1B0352006AFB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14026E841F1B0352006AFB36 /* SimplyGiphyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyGiphyTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14026E881F1B0352006AFB36 /* SimplyGiphyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyGiphyTests.swift; sourceTree = "<group>"; };
+		14026E8A1F1B0352006AFB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14026E8F1F1B0352006AFB36 /* SimplyGiphyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyGiphyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		14026E931F1B0352006AFB36 /* SimplyGiphyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyGiphyUITests.swift; sourceTree = "<group>"; };
+		14026E951F1B0352006AFB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14026E6D1F1B0352006AFB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E811F1B0352006AFB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E8C1F1B0352006AFB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14026E671F1B0352006AFB36 = {
+			isa = PBXGroup;
+			children = (
+				14026E721F1B0352006AFB36 /* SimplyGiphy */,
+				14026E871F1B0352006AFB36 /* SimplyGiphyTests */,
+				14026E921F1B0352006AFB36 /* SimplyGiphyUITests */,
+				14026E711F1B0352006AFB36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		14026E711F1B0352006AFB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14026E701F1B0352006AFB36 /* SimplyGiphy.app */,
+				14026E841F1B0352006AFB36 /* SimplyGiphyTests.xctest */,
+				14026E8F1F1B0352006AFB36 /* SimplyGiphyUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14026E721F1B0352006AFB36 /* SimplyGiphy */ = {
+			isa = PBXGroup;
+			children = (
+				14026E731F1B0352006AFB36 /* AppDelegate.swift */,
+				14026E751F1B0352006AFB36 /* ViewController.swift */,
+				14026E771F1B0352006AFB36 /* Main.storyboard */,
+				14026E7A1F1B0352006AFB36 /* Assets.xcassets */,
+				14026E7C1F1B0352006AFB36 /* LaunchScreen.storyboard */,
+				14026E7F1F1B0352006AFB36 /* Info.plist */,
+			);
+			path = SimplyGiphy;
+			sourceTree = "<group>";
+		};
+		14026E871F1B0352006AFB36 /* SimplyGiphyTests */ = {
+			isa = PBXGroup;
+			children = (
+				14026E881F1B0352006AFB36 /* SimplyGiphyTests.swift */,
+				14026E8A1F1B0352006AFB36 /* Info.plist */,
+			);
+			path = SimplyGiphyTests;
+			sourceTree = "<group>";
+		};
+		14026E921F1B0352006AFB36 /* SimplyGiphyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				14026E931F1B0352006AFB36 /* SimplyGiphyUITests.swift */,
+				14026E951F1B0352006AFB36 /* Info.plist */,
+			);
+			path = SimplyGiphyUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14026E6F1F1B0352006AFB36 /* SimplyGiphy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14026E981F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphy" */;
+			buildPhases = (
+				14026E6C1F1B0352006AFB36 /* Sources */,
+				14026E6D1F1B0352006AFB36 /* Frameworks */,
+				14026E6E1F1B0352006AFB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimplyGiphy;
+			productName = SimplyGiphy;
+			productReference = 14026E701F1B0352006AFB36 /* SimplyGiphy.app */;
+			productType = "com.apple.product-type.application";
+		};
+		14026E831F1B0352006AFB36 /* SimplyGiphyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14026E9B1F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphyTests" */;
+			buildPhases = (
+				14026E801F1B0352006AFB36 /* Sources */,
+				14026E811F1B0352006AFB36 /* Frameworks */,
+				14026E821F1B0352006AFB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14026E861F1B0352006AFB36 /* PBXTargetDependency */,
+			);
+			name = SimplyGiphyTests;
+			productName = SimplyGiphyTests;
+			productReference = 14026E841F1B0352006AFB36 /* SimplyGiphyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		14026E8E1F1B0352006AFB36 /* SimplyGiphyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14026E9E1F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphyUITests" */;
+			buildPhases = (
+				14026E8B1F1B0352006AFB36 /* Sources */,
+				14026E8C1F1B0352006AFB36 /* Frameworks */,
+				14026E8D1F1B0352006AFB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				14026E911F1B0352006AFB36 /* PBXTargetDependency */,
+			);
+			name = SimplyGiphyUITests;
+			productName = SimplyGiphyUITests;
+			productReference = 14026E8F1F1B0352006AFB36 /* SimplyGiphyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14026E681F1B0352006AFB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Ryan Lester";
+				TargetAttributes = {
+					14026E6F1F1B0352006AFB36 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					14026E831F1B0352006AFB36 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14026E6F1F1B0352006AFB36;
+					};
+					14026E8E1F1B0352006AFB36 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 14026E6F1F1B0352006AFB36;
+					};
+				};
+			};
+			buildConfigurationList = 14026E6B1F1B0352006AFB36 /* Build configuration list for PBXProject "SimplyGiphy" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14026E671F1B0352006AFB36;
+			productRefGroup = 14026E711F1B0352006AFB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14026E6F1F1B0352006AFB36 /* SimplyGiphy */,
+				14026E831F1B0352006AFB36 /* SimplyGiphyTests */,
+				14026E8E1F1B0352006AFB36 /* SimplyGiphyUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14026E6E1F1B0352006AFB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14026E7E1F1B0352006AFB36 /* LaunchScreen.storyboard in Resources */,
+				14026E7B1F1B0352006AFB36 /* Assets.xcassets in Resources */,
+				14026E791F1B0352006AFB36 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E821F1B0352006AFB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E8D1F1B0352006AFB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14026E6C1F1B0352006AFB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14026E761F1B0352006AFB36 /* ViewController.swift in Sources */,
+				14026E741F1B0352006AFB36 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E801F1B0352006AFB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14026E891F1B0352006AFB36 /* SimplyGiphyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		14026E8B1F1B0352006AFB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14026E941F1B0352006AFB36 /* SimplyGiphyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		14026E861F1B0352006AFB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14026E6F1F1B0352006AFB36 /* SimplyGiphy */;
+			targetProxy = 14026E851F1B0352006AFB36 /* PBXContainerItemProxy */;
+		};
+		14026E911F1B0352006AFB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 14026E6F1F1B0352006AFB36 /* SimplyGiphy */;
+			targetProxy = 14026E901F1B0352006AFB36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		14026E771F1B0352006AFB36 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14026E781F1B0352006AFB36 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14026E7C1F1B0352006AFB36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14026E7D1F1B0352006AFB36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14026E961F1B0352006AFB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14026E971F1B0352006AFB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14026E991F1B0352006AFB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplyGiphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		14026E9A1F1B0352006AFB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimplyGiphy/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphy;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		14026E9C1F1B0352006AFB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplyGiphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyGiphy.app/SimplyGiphy";
+			};
+			name = Debug;
+		};
+		14026E9D1F1B0352006AFB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimplyGiphyTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphyTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyGiphy.app/SimplyGiphy";
+			};
+			name = Release;
+		};
+		14026E9F1F1B0352006AFB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimplyGiphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplyGiphy;
+			};
+			name = Debug;
+		};
+		14026EA01F1B0352006AFB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = SimplyGiphyUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sfsfsf.SimplyGiphyUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SimplyGiphy;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14026E6B1F1B0352006AFB36 /* Build configuration list for PBXProject "SimplyGiphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14026E961F1B0352006AFB36 /* Debug */,
+				14026E971F1B0352006AFB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14026E981F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14026E991F1B0352006AFB36 /* Debug */,
+				14026E9A1F1B0352006AFB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14026E9B1F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14026E9C1F1B0352006AFB36 /* Debug */,
+				14026E9D1F1B0352006AFB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		14026E9E1F1B0352006AFB36 /* Build configuration list for PBXNativeTarget "SimplyGiphyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14026E9F1F1B0352006AFB36 /* Debug */,
+				14026EA01F1B0352006AFB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 14026E681F1B0352006AFB36 /* Project object */;
+}
