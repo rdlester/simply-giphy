@@ -9,10 +9,12 @@ import UIKit
 // Handles construction, layout and state binding of main app components.
 class RootView: UIView, UITextFieldDelegate {
 
-    static let kInputXInset: CGFloat = 15
-    static let kInputYInset: CGFloat = 5
-    static let kButtonYOffset: CGFloat = 5
-    static let kCollectionYOffset: CGFloat = 5
+    var returnTypedAction: () -> Void = {}
+
+    private static let kInputXInset: CGFloat = 15
+    private static let kInputYInset: CGFloat = 5
+    private static let kButtonYOffset: CGFloat = 5
+    private static let kCollectionYOffset: CGFloat = 5
 
     let searchInput: MDCTextField
     let searchInputController: MDCTextInputController
@@ -33,13 +35,11 @@ class RootView: UIView, UITextFieldDelegate {
         })
     }
 
-    var hideKeyboardTarget: BindingTarget<()> {
+    private var hideKeyboardTarget: BindingTarget<()> {
         return reactive.makeBindingTarget { view, _ in
             view.searchInput.resignFirstResponder()
         }
     }
-
-    var returnTypedAction: () -> Void = {}
 
     // swiftlint:disable:next function_body_length
     init(state: SearchState) {
