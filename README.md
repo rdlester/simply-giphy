@@ -36,7 +36,7 @@ ReactiveCocoa provides us with a functional version of view-model binding, allow
 
 The most prominent issue in the app lies in the display of gifs. Using AVKit to download and display the gifs in mp4 format is simple and reliable, but makes scrolling very jerky. Alternative methods for display should be investigated, from managing the download and caching of videos ourselves to using different methods for rendering. The app could also use some visual polish (and also app icons and a launch screen).
 
-Architecturally, use of optionals in `GiphyModel` should be reduced; they were used initially to simplify use of Gloss, which doesn't provide great syntax for non-optional parameters. I noticed Kickstarter's app uses a library called Argo that provides better syntax for these cases; switching to it would simplify this task.
+Architecturally, use of optionals in `GiphyModel` should be reduced; they were used initially to simplify use of Gloss, which doesn't provide great syntax for non-optional parameters. Switching to Argo for JSON parsing (instead of Gloss) would simplify this.
 
 Many of the custom BindingTargets could be moved to extensions over the corresponding base class, both to maximize reusability and to further separate from the bindings.
 
